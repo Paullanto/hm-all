@@ -1,0 +1,54 @@
+@media (max-width: 1000px){
+    .services .row .left p {
+        padding-right: 20px;
+
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .services .left, 
+    .services .right{
+    width: 100%;
+    }
+
+    .services .row:not(div.right.row){
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .services .row .left p {
+        max-width: 100%;
+        text-align: justify;
+    }
+
+    .services .row .left {
+        max-width: 100%;
+        text-align: justify;
+        padding-bottom: 18px;
+    }
+
+    .services .right .item{
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .services .left a.btn-services {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .services .left{
+        margin-bottom: 25px;
+    }
+
+    .services h2 {
+        font-size: 20px;
+    }
+
+}

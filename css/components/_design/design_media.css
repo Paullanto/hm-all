@@ -1,0 +1,10 @@
+@media (max-width: 1000px) {
+
+    .design .container form button{
+        margin-top: 20px;
+    }
+
+    .design {
+        padding: 50px 0;
+    }
+}

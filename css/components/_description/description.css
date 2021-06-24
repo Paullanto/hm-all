@@ -1,0 +1,119 @@
+.description{
+    margin-top: 100px;
+}
+
+.description .screen-bg{
+    padding: 5px;
+    width: 25%;
+}
+
+.description .description-foto{
+    display: flex;
+    padding-top: 20px;
+}
+
+.description .txt p{
+    font-size: 15px;
+    max-width: 400px;
+    line-height: 30px;
+    padding: 30px 0;
+}
+
+.description .txt h1{
+    font-size: 35px;
+    max-width: 450px;
+    font-weight: 600;
+
+}
+
+.description .description-foto .screen{
+    width: 100%;
+    height: 400px;
+    background-color: var(--main-bg-color);
+    transition: box-shadow 0.5s;
+}
+
+.description .description-foto .screen:hover{
+    box-shadow: #ff0000;
+}
+
+.description .description-foto .txt{
+    max-width: 600px;
+}
+
+.description .description-foto .Up h3{
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.description .description-foto .Up p{
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.description .description-foto .inform-colmn{
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 75%;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+.description .description-foto .Up ul{
+    list-style: var( --content-list-style);
+    justify-content: flex-start;
+    max-width: 600px;
+    align-items: flex-start;
+    padding: 50px 0 0 0;
+}
+
+.description .description-foto ul li{
+    padding-right: 50px;
+    font-style: italic;
+    list-style: var(--content-list-style);
+}
+
+.description .description-foto ul li a{
+    text-decoration: none;
+    color: var(--main-bg-color);
+    transition: color 0.5s;
+}
+
+.description .description-foto ul li a:hover {
+    color: #ff0000;
+}
+
+
+.description .description-foto .Down{
+    display: flex;
+    min-width: 800px;
+    justify-content: space-between;
+}
+
+
+.description .description-foto .screen-block:not(:last-child){
+    padding-right: 10px;   
+}
+
+.description .description-foto .screen-block{
+    width: 25%;   
+}
+
+.description .description-foto .screen-block-content{
+    height: 200px;
+    background-color: var(--main-bg-color);
+    transition: box-shadow 0.5s;
+}
+
+.description .description-foto .screen-block-content:hover{
+    box-shadow: var(--main-bg-color);
+}
+
+.description hr{
+    margin:0;
+    width: 100px;
+    background-color: #ff0000;
+    height: 2px;
+    border: 0;
+}

@@ -1,0 +1,10 @@
+@import"common/index.css";
+
+@import"components/_header/index.css";
+@import"components/_banner/index.css";
+@import"components/_service/index.css";
+@import"components/_gallery/index.css";
+@import"components/_description/index.css";
+@import"components/_design/index.css";
+@import"components/_forms/index.css";
+@import"components/_footer/index.css";

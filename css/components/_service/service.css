@@ -1,0 +1,53 @@
+.services{
+    margin-top:50px;
+}
+.services .left, 
+.services .right{
+    width: 50%;
+    justify-content: space-between;
+}
+
+.services .right .item{
+    max-width: 50%;
+    font-size: 16px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.services .left p{
+    max-width: 450px;
+    padding-bottom: 30px;
+}
+
+.services .item p{
+    max-width: 400px;
+}
+
+.services .left a.btn-services{
+    color: #ff0000;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 5px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    width: 200px;
+    text-align: center;
+    padding: 20px  0;
+    border: 3px solid;
+    border-color: #ff0000;
+    text-decoration: none;
+   
+}
+
+.services .left a.btn-services:hover{
+    background-color: #fff;
+    color: #ff0000;
+}
+
+.services h2 {
+    font-size: 35px;
+    max-width: 450px;
+}

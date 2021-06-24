@@ -1,0 +1,48 @@
+.design{
+    background-color: #d3d3d3;
+    padding: 100px 0;
+    margin-top: 60px;
+}
+.design .container{
+    text-align: center;
+    color: #ffffff;
+}
+.design h2{
+    font-size: 40px;
+}
+.design p{
+    font-size: 13px;
+    padding: 0;
+}
+.design .container form{
+    max-width: 700px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.design .container form input{
+    width: 520px;
+    height: 80px;
+    border-radius: 5px;
+    border: 0;
+    transition: 0.5s;
+}
+.design .container form input:hover{
+    box-shadow: #ffffff;
+}
+.design .container form button{
+    background-color: #ff0000;
+    color: #ffffff;
+    border: 0;
+    height: 80px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 0 40px;
+    margin: 0 4px;
+    transition: 0.5s;
+}
+::placeholder{
+    font-size: 17px;
+    padding: 50px ;
+}
